@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.navbar-nav {
+    margin-left: auto;
+    
+}
+.nav-item{
+    
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    border: 1px solid white;
+    padding: 2px; 
+    margin-right: 8px;
+
+    
+}
+.nav-item a:hover{
+    
+    background-color: rgb(26, 128, 0);
+    color:white;
+    transition: 0.5 ease-in-out;
+
+}
+
+#lhead{
+    color: rgb(30, 87, 30);
+    font-weight: bold;
+    align-items: center;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus{
+    box-shadow: 0 0 5px rgba(246,8,118,8);
+    border: 1px solid rgb(246,8,110,8);
+}
+
+.form-horizondal{
+    margin-top: 40px;
+    margin-left: 400px;
+    height: 90%;
+    width: 400px;
+    background-color: rgb(199, 231, 150);
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,5);
+
+}
+/* .show-pass{
+    position: absolute;
+    top: 42%;
+    right: 29%;
+}
+.progress-bar-danger{
+    background-color: #e90f10;
+}
+.progress-bar-warning{
+    background-color: #ffad00;
+}
+.progress-bar-success{
+    background-color: #02b502;
+}
+.fa-eye{
+    color: green;
+    cursor: pointer;
+} */
+
+#password-strength-status {
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.medium-password {
+    background-color:orange;
+    border: orange 1px solid;
+}
+
+.weak-password {
+    background-color: #ce1d14;
+    border: #AA4502 1px solid;
+}
+
+.strong-password {
+    background-color: #12CC1A;
+    border: #0FA015 1px solid;
+}
+
+footer{
+    background-color: rgb(15, 77, 40);
+    color: white;
+    height: 1.5em;
+    margin-top: 37%;
+    text-align: center;
+
+}

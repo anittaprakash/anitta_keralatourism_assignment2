@@ -1,0 +1,122 @@
+
+.bg-success1{
+    background: rgb(166, 226, 166);
+
+} 
+#logo{
+   
+    height:40px;
+    width: 40px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-item{
+     /* padding-left: 15px;
+    padding-right: 15px; */
+    
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    border: 1px solid white;
+    padding: 2px; 
+    margin-right: 8px;
+    
+}
+.nav-item a:hover{
+    
+    background-color: rgb(26, 128, 0);
+    color:white;
+    transition: 0.5 ease-in-out;
+
+}
+.carousel-item img{
+    height: 600px;
+    width: 1200px;
+    background-size: cover;
+    
+}
+.about{
+    font-family: serif;
+    color: rgb(65, 18, 139);
+    font-style: italic;
+}
+ p{
+    align-self: center;
+} 
+
+
+.districts img{
+    width: 260px;
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.districts{
+    background: rgb(31, 177, 128);
+}
+.districts h6{
+    align-self: center;
+    font-style: italic;
+}
+.districts h3{
+    font-family: sans-serif;
+    font-style: oblique;
+    color: cornsilk;
+    text-transform: uppercase;
+}
+.districts img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,.12);
+
+}
+
+.disth{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: rgb(67, 141, 89);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: honeydew;
+    font-style:italic;
+    text-transform: uppercase;
+}
+
+.contentdis img{
+    height: 400px;
+    width: 400px;
+}
+
+/* .dropdown-menu show {position: absolute;
+ margin: 0px; 
+ transform: translate(-18px, -40px);} */
+
+ .clearfix p{
+    color: navy;
+    text-indent: 30px;
+    text-align: justify;
+    margin: 2em;
+  }
+  .card-img-top{
+    height: 200px;
+    width: 200px;
+
+  }
+  .card{
+     
+      margin-right: 2em;
+    }
+  .card:hover{
+      transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,.12);
+  }
+
+  footer{
+    background-color: rgb(15, 77, 40);
+    color: white;
+    height: 1.5em;
+    margin-top: 37%;
+    text-align: center;
+
+}
